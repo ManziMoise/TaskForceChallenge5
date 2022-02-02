@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/app_bar_search"
+        android:icon="@drawable/ic_search_tf"
+        android:title="Search"
+
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="always" />
+
+
+    <item
+        android:icon="@drawable/ic_filter_list_tf"
+        android:id="@+id/filer_tf"
+        android:title="FILTER BY PRIORITY"
+        app:showAsAction="always"/>
+
+
+
+
+<!--        <item android:title="Low priority" />-->
+<!--        <item android:title="Medium priority" />-->
+<!--        <item android:title="High priority" />-->
+
+
+
+</menu>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TaskDetailsActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="411dp"
+        android:layout_height="179dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="394dp"
+        android:layout_height="520dp"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        android:padding="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="100sp"
+                android:layout_height="30sp"
+                android:layout_margin="10dp"
+                android:background="@color/gray_mid_TF"
+                android:gravity="center"
+                android:text="Medium"
+                android:textAllCaps="false"
+                android:textColor="@color/White_TF"
+                android:textSize="8sp">
+
+            </TextView>
+            <Button
+                android:layout_width="40sp"
+                android:layout_height="40sp"
+                android:layout_margin="10dp"
+                android:background="@color/gray_light_TF"
+                android:src="@drawable/ic_edit_tf">
+
+
+            </Button>
+            <Button
+                android:layout_width="40sp"
+                android:layout_height="40sp"
+                android:layout_margin="10dp"
+                android:background="@color/white"
+                android:src="@drawable/ic_close_tf">
+
+            </Button>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:background="@color/white"
+
+                android:text="Done"
+                android:textColor="@color/black_TF"
+                >
+
+            </Button>
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="@font/montserrat_bold"
+            android:gravity="left"
+            android:text="Buy hand sanitizers"
+            android:textColor="@color/black_TF"
+            android:textSize="24sp"></TextView>
+
+
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="Description"
+            android:textColor="@color/black_TF"
+            android:textSize="14sp"></TextView>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/montserrat"
+            android:text="Call HB to confirm with the quantity and the price. remember the TIN number too"
+            android:textColor="@color/black_TF"
+            android:textSize="16sp"></TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/montserrat"
+                android:text="Created 14th Feb"
+                android:textColor="@color/black_TF"
+                android:textSize="12sp"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/montserrat"
+                android:text="Created 14th Feb"
+                android:textColor="@color/black_TF"
+                android:textSize="12sp"></TextView>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
